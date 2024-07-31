@@ -1,0 +1,128 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Inter;
+}
+ 
+html, body {
+   height: 100%;
+   width: 100%;
+   color: white;
+   background-color: hsl(0, 0%, 8%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+    width: 25vw;
+    height: 85%;
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+img{
+    border-radius: 50%;
+    width: 90px;
+    padding: 2px;
+}
+.main h1{
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+.main h2{
+    font-size: 1rem;
+    padding: 8px;
+    color: yellowgreen;
+}
+.main h3{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 13px;
+}
+
+.socialmedia{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.socialId{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.socialId:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+@media (max-width:1075px) {
+    .main{
+        width: 30vw;
+    }
+    .main h3{
+        font-size: 1.2vw;
+    }
+    .socialId{
+        height: 30px;
+    }
+    
+}
+@media (max-width:954px) {
+    .main{
+        width: 30vw;
+         
+    }
+    .main h1{
+        font-size: 1.5rem;
+    }
+    .main h2{
+        font-size: 0.8rem;
+    }
+    .main h3{
+        font-size: 10px;
+    }
+    .socialId{
+        height: 30px;
+    }
+    
+}
+@media (max-width:800px) {
+    .main{
+        width: 30vw;
+    }
+    .socialId{
+        height: 30px;
+        width: 40vh;
+    }
+    
+}
+@media (max-width:375px) {
+    .main{
+        width: 90vw;
+    }
+    .socialId{
+        height: 30px;
+    }
+    
+}
+
+
